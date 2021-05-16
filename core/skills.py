@@ -12,7 +12,7 @@ def exSkills(resume_text):
     tokens = [token.text for token in nlp_text if not token.is_stop]
     
     # reading the csv file
-    data = pd.read_csv("../skills.csv") 
+    data = pd.read_csv("core/skills.csv") 
     
     # extract values
     skills = list(data.columns.values)
