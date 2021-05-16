@@ -2,10 +2,10 @@
 
 
 
-Install all the requirements 
+Install all the requirements (might require root access)
 
 ```
-   python3 setup.py
+   python3 setup.py install
 ```
 
 Run the main file to parse the resume store in resumes folder
