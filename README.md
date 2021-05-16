@@ -1,1 +1,12 @@
 résumé parser
+
+install all the requirements 
+
+::
+
+   python3 setup.py
+   
+::
+
+  python3 main.py
+  
