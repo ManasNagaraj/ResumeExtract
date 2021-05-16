@@ -1,1 +1,1 @@
-resume parser
+résumé parser
