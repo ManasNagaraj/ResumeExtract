@@ -19,9 +19,8 @@ EDUCATION = [
 def exEdu(resume_text):
     nlp_text = nlp(resume_text)
 
-    # Sentence Tokenizer
-    nlp_text = [sent.string.strip() for sent in nlp_text.sents]
-
+    nlp_text = [sent.text for sent in nlp_text.sents]
+    
     edu = {}
     # Extract education degree
     for index, text in enumerate(nlp_text):
